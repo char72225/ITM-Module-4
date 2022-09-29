@@ -1,0 +1,39 @@
+body{
+    background-color: #bfaa97;
+}
+.logo{
+    height: 50px;
+    position: fixed;
+    left:20px;
+    width:50px;
+    border:none;
+    top: 20px;
+}
+li {
+    display: inline;
+  }
+.nav{
+    margin:auto;
+    position: fixed;
+    top: 33px;
+    left: 140px;
+    color:#271300;
+
+}
+.footer{
+    margin:auto;
+    position: fixed;
+    bottom: 0;
+    left: 20px;
+}
+header{
+    position: fixed;
+    left: 75px;
+    width:50px;
+    border:none;
+    top: 20px;
+}
+
+a{
+    color:#271300;
+}
