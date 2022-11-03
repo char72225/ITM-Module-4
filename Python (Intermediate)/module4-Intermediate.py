@@ -32,11 +32,7 @@ def shift_letter(letter, shift):
     # Replace `pass` with your code. 
     # Stay within the function. Only use the parameters as input. The function should return your answer.
     
-
-    while (True):
-        if ord(letter)==shift:
-            return str.upper(letter)
-        elif ord(letter)!= shift:
+        if ord(letter)!= shift:
             if shift>25:
                 remainder= shift - 25
                 return str.upper(chr(65+remainder))
