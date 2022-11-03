@@ -70,7 +70,7 @@ def caesar_cipher(message, shift):
     result=''
     for letter in message:
         if letter !=" ":
-            result= result + chr(ord(letter)-shift
+            result= result + chr(ord(letter)-shift)
     return result
         
         
