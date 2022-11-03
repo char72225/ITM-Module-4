@@ -68,13 +68,10 @@ def caesar_cipher(message, shift):
     # Replace `pass` with your code. 
     # Stay within the function. Only use the parameters as input. The function should return your answer.
     result=''
-    for i in range(len(message)):
-        char= message[i]
-        if (char.isupper()):
-            result += chr((ord(char)+ shift-65) % 26 + 65)
-        else:
-            result += chr((ord(char)+ shift-97) % 26 + 97)
-        return result
+    for letter in message:
+        if letter !=" ":
+            result= result + chr(ord(letter)-shift
+    return result
         
         
 
